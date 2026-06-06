@@ -5,13 +5,23 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
-  background-color: #160a12; /* Warna dasar gelap keunguan estetik */
-  background-image: url('https://unsplash.com'); /* Gambar bunga mawar gelap melayang */
+  background-color: #1a0914; 
+  /* Menggunakan gambar hamparan kelopak bunga mawar pink romantis */
+  background-image: url('https://unsplash.com'); 
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  color: #ffb6c1; /* Mengubah semua warna teks bawaan menjadi pink lembut */
+  color: #ffb6c1; 
+}
+/* Mengatur agar semua halaman kontainer di template berlatar transparan */
+.login_container, .container, .one, .two, .three, .four, .five, .six, .seven, .eight, .nine {
+  background: transparent !important;
+}
+
+/* Memberikan efek bayangan hitam halus di belakang teks agar tulisan ucapan Anda sangat jelas terbaca di atas gambar bunga */
+h1, h2, h3, h4, h5, p, span {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.85);
 }
 
 
