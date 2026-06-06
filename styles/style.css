@@ -5,7 +5,15 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
+  background-color: #160a12; /* Warna dasar gelap keunguan estetik */
+  background-image: url('https://unsplash.com'); /* Gambar bunga mawar gelap melayang */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #ffb6c1; /* Mengubah semua warna teks bawaan menjadi pink lembut */
 }
+
 
 /* Login page styles */
 .login_container {
@@ -15,6 +23,7 @@ body {
   align-items: center;
   height: 100vh;
   width: 100vw;
+  background: rgba(22, 10, 18, 0.6);
 }
 
 .login_form {
